@@ -42,6 +42,24 @@ Como se trata de um projeto **multi-módulo**, o IntelliJ não importa automatic
 
 ### 🧪 Usando Maven (linha de comando)
 
-- Para rodar todos os testes do projeto:
-```bash
-mvn clean install
+Para rodar os testes:
+ -`mvn clean install`
+ -`mvn test -pl test-cases` 
+
+##🧱 Tecnologias utilizadas
+Java 17+
+
+Maven
+
+Selenium 4
+
+WebDriverManager
+
+JUnit 5
+
+Cucumber (opcional)
+
+SLF4J + Logback
+
+Modularização com Maven multi-module
+
