@@ -67,7 +67,7 @@ Modularização com Maven multi-module
 
 ---
 
-### 📁 Estrutura de pastas resumida
+## 📁 Estrutura de pastas resumida
 
 test-framework/
 ├── selenium-config/      # Configurações do Selenium, logs e evidências
