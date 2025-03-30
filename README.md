@@ -46,7 +46,9 @@ Para rodar os testes:
  -`mvn clean install`
  -`mvn test -pl test-cases` 
 
-##🧱 Tecnologias utilizadas
+---
+
+###🧱 Tecnologias utilizadas
 Java 17+
 
 Maven
