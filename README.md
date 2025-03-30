@@ -48,7 +48,7 @@ Para rodar os testes:
 
 ---
 
-###🧱 Tecnologias utilizadas
+### 🧱 Tecnologias utilizadas
 Java 17+
 
 Maven
@@ -64,4 +64,17 @@ Cucumber (opcional)
 SLF4J + Logback
 
 Modularização com Maven multi-module
+
+---
+
+### 📁 Estrutura de pastas resumida
+test-framework/
+│
+├── selenium-config/     → DriverFactory, Logger, ScreenshotManager
+├── test-commons/        → Utils, constantes e enums
+├── test-core/           → BaseTest e lógica comum
+├── test-cases/          → Testes automatizados
+│   ├── pages/           → PageObjects (POM)
+│   ├── steps/           → Step Definitions (Cucumber)
+│   └── features/        → Arquivos .feature (Cucumber)
 
