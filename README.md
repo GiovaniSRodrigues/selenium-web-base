@@ -69,5 +69,22 @@ Modularização com Maven multi-module
 
 ## 📁 Estrutura de pastas resumida
 
-test-framework/ ├── selenium-config/ # Configurações do Selenium, logs e evidências │ ├── driver/ # DriverFactory, BrowserManager │ ├── log/ # Configuração de logs │ └── evidence/ # Gerenciamento de screenshots │ ├── test-commons/ # Utilitários e constantes globais │ ├── utils/ # DateUtil, JsonUtil, FileUtil, etc. │ └── constants/ # Enums e valores fixos │ ├── test-core/ # Lógica base para execução dos testes │ └── core/ # BaseTest e hooks │ ├── test-cases/ # Onde os testes são implementados │ ├── pages/ # PageObjects (Page Object Model) │ ├── steps/ # Step Definitions (Cucumber) │ ├── features/ # Arquivos .feature (Cucumber) │ └── runners/ # Classe para executar os testes BDD
+test-framework/
+├── selenium-config/      
+│   ├── driver/           
+│   ├── log/              
+│   └── evidence/         
+│
+├── test-commons/         
+│   ├── utils/            
+│   └── constants/        
+│
+├── test-core/            
+│   └── core/             
+│
+├── test-cases/           
+│   ├── pages/            
+│   ├── steps/            
+│   ├── features/         
+│   └── runners/          
 
