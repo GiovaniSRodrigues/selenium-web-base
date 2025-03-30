@@ -77,4 +77,3 @@ test-framework/
 │   ├── pages/           → PageObjects (POM)
 │   ├── steps/           → Step Definitions (Cucumber)
 │   └── features/        → Arquivos .feature (Cucumber)
-
