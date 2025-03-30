@@ -43,8 +43,8 @@ Como se trata de um projeto **multi-módulo**, o IntelliJ não importa automatic
 ### 🧪 Usando Maven (linha de comando)
 
 Para rodar os testes:
- -`mvn clean install`
- -`mvn test -pl test-cases` 
+ - `mvn clean install`
+ - `mvn test -pl test-cases` 
 
 ---
 
